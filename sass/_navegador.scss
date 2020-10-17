@@ -1,0 +1,19 @@
+.encabezado{
+    .contendor-titulo{
+        height: 250px;
+        background: url(../assets/images.jpg);
+        background-position: center;
+        background-size: cover;        
+        .titulo{
+            color:gray;
+            font-size:32px;
+            padding-top: 6.25%;
+            margin-left: 5%;            
+            .titulo2{
+                display:block;
+                font-style:italic;
+                font-size:48px;
+            }
+        }
+    }
+}
