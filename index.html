@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caninos y Felinos</title>
     <link rel="stylesheet" href="sass/styles.css">
 </head>
+
 <body>
     <header class="encabezado">
         <div class="contendor-titulo">
-            <h1 class="titulo">Centro Veterinario <span class="titulo2">Caninos y Felinos</span></h1>
-        </div>  
+            <h1 class="titulo">Centro Veterinario <span class="titulo2">Caninos y <span class="titulo3">Felinos</span></span></h1>
+        </div>
         <nav class="navegador">
             <ul class="list-nav">
                 <li class="list-item" id="li-1"><a class="list-link" href="#">. Servicios .</a></li>
@@ -18,7 +20,7 @@
                 <li class="list-item"><a class="list-link" href="#">. Guardería .</a></li>
                 <li class="list-item" id="li-4"><a class="list-link" href="#">. Promociones .</a></li>
             </ul>
-        </nav>        
+        </nav>
     </header>
     <section class="seccion">
         <div class="contenedor-articulos">
@@ -26,10 +28,11 @@
                 <h2 class="subtitulo">Cuidado y educacion para su perro</h2>
                 <div class="contendor-info">
                     <div class="textos">
-                        <p class="texto1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos assumenda culpa itaque id esse hic quos, blanditiis molestias aliquid quod?</p>
+                        <p class="texto1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+                            dignissimos assumenda culpa itaque id esse hic quos, blanditiis molestias aliquid quod?</p>
                         <p class="texto2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     </div>
-                    <div class="img">  
+                    <div class="img">
                         <img class="imagen" src="../Caninos-y-Felinos/assets/perro.jpg" alt="perro">.
                     </div>
                     <a class="enlace" href="#">Ver mas...</a>
@@ -39,7 +42,8 @@
                 <h2 class="subtitulo">Salir de viaje con su mascota</h2>
                 <div class="contendor-info">
                     <div class="textos">
-                        <p class="texto1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos assumenda culpa itaque id esse hic quos, blanditiis molestias aliquid quod?</p>
+                        <p class="texto1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+                            dignissimos assumenda culpa itaque id esse hic quos, blanditiis molestias aliquid quod?</p>
                         <p class="texto2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="img">
@@ -49,12 +53,51 @@
                 </div>
             </article>
         </div>
-        <div>
-            <form action="">
-
+        <div class="formulario">
+            <div class="titulo-formulario">
+                <h2 class="titulo-cita">Solicitar Cita Medica</h2>
+            </div>
+            <form class="formulario1">                
+                <div>
+                    <label for="">Mascota</label>
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+                <div>
+                    <label for="">Edad</label>
+                    <select name="menu">
+                        <option value="1">de 1 a 3</option>
+                        <option value="2">de 4 a 6</option>
+                        <option value="3">de 7 a 9</option>
+                        <option value="4">de 10 a 12 </option>
+                        <option value="5">mas de 12</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Raza</label>
+                    <input type="text" placeholder="Ingrese Raza">
+                </div>
+                <label for="">Fecha</label>
+                <input type="date">
+                <div>
+                    <label for="">Hora</label>
+                    <input type="time">
+                </div>
+                <div>
+                    <label for="">Amo</label>
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+                <button>Validar Cita</button>
             </form>
         </div>
     </section>
-    
+    <footer>
+        <div class="pie">
+            <p class="text1">Contactenos</p>
+            <p class="text1">Linea Gratuita 018000-000001</p>
+            <p class="text1">Correo: preguntas@caninosyfelinos.com</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
